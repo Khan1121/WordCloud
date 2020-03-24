@@ -1,11 +1,11 @@
 import React from 'react';
+import AppShell from './AppShell';
+
 
 class App extends React.Component {
     render() {
         return (
-            <div>
-                <h3>Hellow 123</h3>
-            </div>
+                <AppShell/>
         );
     }
 }
